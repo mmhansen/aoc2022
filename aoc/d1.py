@@ -42,7 +42,7 @@ print(t)
 
 
 t = solve_p1(t)
-print(int(t))
+print('p1', int(t))
 
 
 def solve_p2(elvs):
@@ -50,11 +50,11 @@ def solve_p2(elvs):
     tmp = sum(st[-3:])
     return int(tmp)
 
-t = parse_p1(test_input1)
+# t = parse_p1(test_input1)
 
-print(solve_p2(t))
+# print(solve_p2(t))
 
 
 t = parse_p1(input1)
 
-print(solve_p2(t))
+print('p2', solve_p2(t))
